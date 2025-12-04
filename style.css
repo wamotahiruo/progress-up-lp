@@ -385,3 +385,31 @@ h2::after {
     flex-direction: column;
   }
 }
+
+/* Responsive */
+.mobile-br {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-br {
+    display: inline;
+  }
+
+  .hero-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-image img {
+    box-shadow: 10px 10px 0 var(--secondary-color);
+  }
+
+  .detail-card {
+    flex-direction: column;
+  }
+}
