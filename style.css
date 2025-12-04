@@ -275,6 +275,10 @@ h2::after {
   background: white;
 }
 
+.audience h3 {
+  text-align: center;
+}
+
 .check-list {
   list-style: none;
   max-width: 800px;
