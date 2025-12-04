@@ -279,6 +279,10 @@ h2::after {
   text-align: center;
 }
 
+.audience p {
+  text-align: center;
+}
+
 .check-list {
   list-style: none;
   max-width: 800px;
