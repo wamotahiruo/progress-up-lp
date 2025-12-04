@@ -310,30 +310,19 @@ h2::after {
   text-align: center;
   background-color: #333;
   color: white;
+
+  /* フレックスボックス化 */
+  display: flex;
+  flex-direction: column;
+  /* 縦並びにする */
+  gap: 50px;
+  /* 要素間の間隔 */
 }
 
-.footer h2 {
-  color: var(--secondary-color);
-  margin-bottom: 20px;
+.footer small {
+  color: grey;
 }
 
-.footer h2::after {
-  display: none;
-}
-
-.footer p {
-  font-size: 1.2rem;
-}
-
-.footer a {
-  color: white;
-  text-decoration: none;
-  font-family: inherit;
-}
-
-.footer a:hover {
-  text-decoration: underline;
-}
 
 /* Animations */
 @keyframes float {
