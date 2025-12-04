@@ -85,6 +85,7 @@
           <li>学習リズムを整えたいと思っている方</li>
         </ul>
         <br>
+        <br>
         <h3><a href="https://forms.gle/M89JgDDoYUYyMqSa6" target="_blank"
             rel="noopener noreferrer">🖱️出欠回答へのご協力お願いします🖱️</a></h3>
       </div>
@@ -94,12 +95,18 @@
     <footer class="footer">
       <div class="container">
         <!-- <h2>出欠回答へのご協力お願いします！</h2> -->
-        <p>ふらっと来て、ふらっと帰ってOKです♪<br>みんなで一緒に、前向きに学びを楽しみましょう💪🌱</p>
+        <p>ふらっと来てふらっと帰ってOKです♪<br>みんなで一緒に、前向きに学びを楽しみましょう💪🌱</p>
       </div>
+      <small>
+        &copy; <span id="year"></span> kamonohashi-systems Inc.
+      </small>
     </footer>
   </div>
   <script type="module" src="/main.js"></script>
-  </div>
+  <script>
+    // 現在の西暦を取得して表示する
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 
 </html>
